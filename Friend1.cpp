@@ -26,11 +26,13 @@ isfactor (MyClass ob){
 int main(){
 	MyClass m(4,2);
 	cout<<"Suma="<<fun_sum(m)<<endl;
-//	cout<<"Dilutsya 1, Ne dilutsya 0 :"<<endl;
-//	cout<<isfactor(m);
+
     if(isfactor(m)){
 	cout<<"Dilutsya";
-}
+}	
     else cout<<"Ne dilutsya bez ostachi";
+	
+	cout<<"\nGitHub\n";
+	
 	return 0;
 }
