@@ -4,6 +4,7 @@ using namespace std;
 
 class MyClass{
 	int a, b;
+	float g;
 public:
  MyClass(int izm, int jzm){
 	a=izm;
